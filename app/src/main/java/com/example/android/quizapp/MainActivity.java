@@ -23,60 +23,64 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitQuiz(View view) {
         String message = null;
+
+        // check and calculate answers
         ArrayList incorrectAnswers = new ArrayList();
         int correctAnswers = 0;
 
         if (radioQuestion1()) {
             correctAnswers++;
         } else {
-            incorrectAnswers.add("Question 1");
+            incorrectAnswers.add(getString(R.string.java1));
         }
 
         if (checkQuestion2()) {
             correctAnswers++;
         } else {
-            incorrectAnswers.add("Question 2");
+            incorrectAnswers.add(getString(R.string.jav2));
         }
 
         if (editQuestion3()) {
             correctAnswers++;
         } else {
-            incorrectAnswers.add("Question 3");
+            incorrectAnswers.add(getString(R.string.jav3));
         }
 
         if (editQuestion4()) {
             correctAnswers++;
         } else {
-            incorrectAnswers.add("Question 4");
+            incorrectAnswers.add(getString(R.string.jav4));
         }
 
         if (radioQuestion5()) {
             correctAnswers++;
         } else {
-            incorrectAnswers.add("Question 5");
+            incorrectAnswers.add(getString(R.string.jav5));
         }
 
-
+      // grading quiz
         if (correctAnswers == 0) {
-            message = "Poor luck.\nRecheck the following:\n";
+            message = getString(R.string.message1);
         } else if (correctAnswers == 1) {
-            message = "You could do better.\nRecheck the following:\n";
+            message = getString(R.string.message2);
         } else if (correctAnswers == 2) {
-            message = "Quite nice.\nRecheck the following:\n";
+            message = getString(R.string.message3);
         } else if (correctAnswers == 3) {
-            message = "Really nice.\nRecheck the following:\n";
+            message = getString(R.string.message4);
         } else if (correctAnswers == 4) {
-            message = "Great!\nRecheck the following:\n";
+            message = getString(R.string.message5);
         } else if (correctAnswers == 5) {
-            message = "Awesome!\nYou got all correct\n";
+            message = getString(R.string.message6);
         }
+
+        // shows or echos which questions where not answered correctly
         StringBuilder stringBuilder = new StringBuilder();
         for (Object incorrect : incorrectAnswers) {
             stringBuilder.append(incorrect);
             stringBuilder.append("\n");
         }
 
-        Toast.makeText(this, "You got " + correctAnswers + "/5 answers right.\n" + message + stringBuilder.toString(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.toast1) +" "+ correctAnswers + getString(R.string.toast2) + message + stringBuilder.toString(), Toast.LENGTH_LONG).show();
     }
 
 
@@ -124,6 +128,8 @@ public class MainActivity extends AppCompatActivity {
         return editText.getText().toString().equalsIgnoreCase("Cedi");
     }
 
+
+    // question 5
     private boolean radioQuestion5() {
         RadioGroup ques1 = (RadioGroup) findViewById(R.id.qustion5);
         if (ques1.getCheckedRadioButtonId() == R.id.ranswer8) {

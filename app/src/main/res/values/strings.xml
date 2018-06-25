@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <string name="ghana">History of Ghana</string>
+    <string name="question1">1. When did Ghana get independence?</string>
+    <string name="_1960">1960</string>
+    <string name="_1957">1957</string>
+    <string name="_1948">1948</string>
+    <string name="_1952">1952</string>
+    <string name="question2">2. Which of these are past Presidents of Ghana?</string>
+    <string name="mensah">John Kwaku Mensah</string>
+    <string name="kuffour">John Agykum Kuffour</string>
+    <string name="mahama">John Dramani Mahama</string>
+    <string name="kusi">John Aboagye Kusi</string>
+    <string name="question3">3. What was Ghana formerly called?</string>
+    <string name="question4">4. What is the currency in Ghana called?</string>
+    <string name="question5">5. Which lake in Ghana is one of the largest man-made lakes in the world??</string>
+    <string name="bosumtwi">Lake Bosumtwi</string>
+    <string name="pra">Lake Pra</string>
+    <string name="chad">Lake Chad</string>
+    <string name="volta">Lake Volta</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="java1">Question 1</string>
+    <string name="jav2">Question 2</string>
+    <string name="jav3">Question 3</string>
+    <string name="jav4">Question 4</string>
+    <string name="jav5">Question 5</string>
+    <string name="message1">Poor.\nRecheck the following:\n</string>
+    <string name="message2">Fair.\nRecheck the following:\n</string>
+    <string name="message3">Good.\nRecheck the following:\n</string>
+    <string name="message4">Great. \nRecheck the following:\n</string>
+    <string name="message5">Awesome. \nRecheck the following:\n</string>
+    <string name="message6">Excellent. \nYou got all correct\n</string>
+    <string name="toast1">You got </string>
+    <string name="toast2">/5 answers right.\n</string>
 </resources>

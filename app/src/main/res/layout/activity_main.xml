@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:text="History of Ghana"
+                android:text="@string/ghana"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="@android:color/black"
@@ -34,7 +34,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:text="1. When did Ghana get independence?"
+                android:text="@string/question1"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="1960" />
+                    android:text="@string/_1960" />
 
                 <RadioButton
                     android:id="@+id/ranswer2"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="1957" />
+                    android:text="@string/_1957" />
 
                 <RadioButton
                     android:id="@+id/ranswer3"
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="1948" />
+                    android:text="@string/_1948" />
 
                 <RadioButton
                     android:id="@+id/ranswer4"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="1952" />
+                    android:text="@string/_1952" />
             </RadioGroup>
 
 
@@ -84,7 +84,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:text="2. Which of these are past Presidents of Ghana?"
+                android:text="@string/question2"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
-                android:text="John Kwaku Mensah" />
+                android:text="@string/mensah" />
 
             <CheckBox
                 android:id="@+id/kuffour"
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
-                android:text="John Agykum Kuffour" />
+                android:text="@string/kuffour" />
 
             <CheckBox
                 android:id="@+id/mahama"
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
-                android:text="John Dramani Mahama" />
+                android:text="@string/mahama" />
 
             <CheckBox
                 android:id="@+id/kusi"
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
-                android:text="John Aboagye Kusi" />
+                android:text="@string/kusi" />
 
 
             <TextView
@@ -127,7 +127,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:text="3. What was Ghana formerly called?"
+                android:text="@string/question3"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -143,7 +143,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:text="4. What is the currency in Ghana called?"
+                android:text="@string/question4"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -159,7 +159,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
-                android:text="5. Which lake in Ghana is one of the largest man-made lakes in the world??"
+                android:text="@string/question5"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -175,7 +175,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="Lake Bosumtwi" />
+                    android:text="@string/bosumtwi" />
 
                 <RadioButton
                     android:id="@+id/ranswer6"
@@ -183,7 +183,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="Lake Pra" />
+                    android:text="@string/pra" />
 
                 <RadioButton
                     android:id="@+id/ranswer7"
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="Lake Chad" />
+                    android:text="@string/chad" />
 
                 <RadioButton
                     android:id="@+id/ranswer8"
@@ -199,30 +199,30 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="16dp"
-                    android:text="Lake Volta" />
+                    android:text="@string/volta" />
             </RadioGroup>
 
             <Button
                 android:id="@+id/submit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="22dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:background="#80ff00"
                 android:onClick="submitQuiz"
-                android:text="Submit" />
+                android:text="@string/submit" />
 
             <Button
                 android:id="@+id/reset"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:background="#ff0033"
                 android:onClick="reset"
-                android:text="Reset"
+                android:text="@string/reset"
                 android:textStyle="bold" />
 
         </LinearLayout>

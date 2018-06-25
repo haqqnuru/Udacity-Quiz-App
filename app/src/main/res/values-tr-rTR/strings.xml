@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sınav Uygulaması</string>
+    <string name="ghana">Gana\'nın Tarihi</string>
+    <string name="question1">1. Gana ne zaman bağımsızlık kazandı?</string>
+    <string name="_1960">1960</string>
+    <string name="_1957">1957</string>
+    <string name="_1948">1948</string>
+    <string name="_1952">1952</string>
+    <string name="question2">2. Bunlardan hangileri Gana\'nın başkanlarıdır?</string>
+    <string name="mensah">John Kwaku Mensah</string>
+    <string name="kuffour">John Agykum Kuffour</string>
+    <string name="mahama">John Dramani Mahama</string>
+    <string name="kusi">John Aboagye Kusi</string>
+    <string name="question3">3. Gana eskiden ne denirdi?</string>
+    <string name="question4">4. Gana\'daki para birimi ne denir?</string>
+    <string name="question5">5. Gana\'da hangi göl dünyanın en büyük insan yapımı göllerinden biridir?</string>
+    <string name="bosumtwi">Bosumtwi Gölü</string>
+    <string name="pra">Pra Gölü</string>
+    <string name="chad">Çad Gölü</string>
+    <string name="volta">Volta Gölü</string>
+    <string name="submit">Gönder</string>
+    <string name="reset">Reset</string>
+    <string name="jav2">Soru 2</string>
+    <string name="java1"> Soru 1</string>
+    <string name="jav3"> Soru 3</string>
+    <string name="jav4"> Soru 4</string>
+    <string name="jav5"> Soru 5</string>
+    <string name="message1">Zayif. \nAşağıdakileri tekrar kontrol edin:\n</string>
+    <string name="message2">Adil. \nAşağıdakileri tekrar kontrol edin:\n</string>
+    <string name="message3">Peki. \nAşağıdakileri tekrar kontrol edin:\n</string>
+    <string name="message4">Harika. \nAşağıdakileri tekrar kontrol edin:\n</string>
+    <string name="message5">Korku veren. \nAşağıdakileri tekrar kontrol edin:\n</string>
+    <string name="message6">Mükemmel. \nHepiniz doğru</string>
+    <string name="toast1">Sende var</string>
+    <string name="toast2">/5 cevap doğru.\n</string>
+</resources>
